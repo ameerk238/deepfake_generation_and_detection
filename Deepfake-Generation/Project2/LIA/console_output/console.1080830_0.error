@@ -1,0 +1,7 @@
+Job 1080830: Running on node(s) kusel
+Job 1080830: Started at 2024-06-11 19:08:03+0200
+Monitor this job here: http://monitoring.pegasus.kl.dfki.de/d/slurm-job-details/job-details?var-jobid=1080830&from=1718125683000
+srun: jobinfo: version v1.0.0
+srun: error: pyxis: mount source must be a relative path, an absolute path, "tmpfs" or "umount"
+srun: error: pyxis: could not add mount entry: ⁠ pwd ⁠:⁠ pwd ⁠
+srun: error: Invalid --container-mounts argument: /netscratch:/netscratch,/ds:/ds,⁠ pwd ⁠:⁠ pwd ⁠

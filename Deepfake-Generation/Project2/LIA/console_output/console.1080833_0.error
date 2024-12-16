@@ -1,0 +1,14 @@
+Job 1080833: Running on node(s) kusel
+Job 1080833: Started at 2024-06-11 19:14:26+0200
+Monitor this job here: http://monitoring.pegasus.kl.dfki.de/d/slurm-job-details/job-details?var-jobid=1080833&from=1718126066000
+srun: jobinfo: version v1.0.0
+Job 1080833: Running on node(s) kusel
+Job 1080833: Started at 2024-06-11 19:14:26+0200
+Monitor this job here: http://monitoring.pegasus.kl.dfki.de/d/slurm-job-details/job-details?var-jobid=1080833&from=1718126066000
+Job 1080833: creating container for /netscratch/enroot/nvcr.io_nvidia_pytorch_23.04-py3.sqsh
+Job 1080833: creating container for /netscratch/enroot/nvcr.io_nvidia_pytorch_23.04-py3.sqsh took 9.9 seconds
+slurmstepd: error: run_command: user task_prolog can not be executed (/home/amkhan/LIA/install.sh) Permission denied
+slurmstepd: error: user task_prolog did not exit normally. reason: Run command failed - configuration error
+slurmstepd: error: --task-prolog failed status=1
+srun: error: kusel: task 0: Exited with exit code 1
+srun: Terminating StepId=1080833.0

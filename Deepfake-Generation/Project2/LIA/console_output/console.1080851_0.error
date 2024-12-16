@@ -1,0 +1,19 @@
+Job 1080851: Running on node(s) kent
+Job 1080851: Started at 2024-06-11 19:45:19+0200
+Monitor this job here: http://monitoring.pegasus.kl.dfki.de/d/slurm-job-details/job-details?var-jobid=1080851&from=1718127919000
+srun: jobinfo: version v1.0.0
+Job 1080851: Running on node(s) kent
+Job 1080851: Started at 2024-06-11 19:45:19+0200
+Monitor this job here: http://monitoring.pegasus.kl.dfki.de/d/slurm-job-details/job-details?var-jobid=1080851&from=1718127919000
+Job 1080851: creating container for /netscratch/enroot/nvcr.io_nvidia_pytorch_23.04-py3.sqsh
+Job 1080851: creating container for /netscratch/enroot/nvcr.io_nvidia_pytorch_23.04-py3.sqsh took 10.3 seconds
+usage: run_demo.py [-h] [--size SIZE]
+                   [--channel_multiplier CHANNEL_MULTIPLIER]
+                   [--model {vox,taichi,ted}]
+                   [--latent_dim_style LATENT_DIM_STYLE]
+                   [--latent_dim_motion LATENT_DIM_MOTION]
+                   [--source_path SOURCE_PATH] [--driving_path DRIVING_PATH]
+                   [--save_folder SAVE_FOLDER]
+run_demo.py: error: unrecognized arguments: 0
+srun: error: kent: task 0: Exited with exit code 2
+srun: Terminating StepId=1080851.0

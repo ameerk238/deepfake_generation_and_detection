@@ -1,0 +1,6 @@
+Job 1080850: Running on node(s) kent
+Job 1080850: Started at 2024-06-11 19:42:40+0200
+Monitor this job here: http://monitoring.pegasus.kl.dfki.de/d/slurm-job-details/job-details?var-jobid=1080850&from=1718127760000
+srun: jobinfo: version v1.0.0
+srun: fatal: No command given to execute.
+/var/spool/slurm/d/job1080850/slurm_script: line 20: --pty: command not found
